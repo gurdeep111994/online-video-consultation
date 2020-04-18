@@ -1,0 +1,416 @@
+html,
+body {
+    overflow-x: hidden;
+    /* Prevent scroll on narrow devices */
+}
+
+body {
+    color: #37342d;
+    font-family: 'Exo 2', sans-serif;
+    background: #f2f6f7;
+}
+
+nav.navbar.bg-color {
+    background-color: rgba(255, 255, 255, .95);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 2.5rem;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #37342d;
+}
+
+.login-btn {
+    background: #f18b5c;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+.middle-card .col-md-4 {
+    border-right: 1px solid #f2f6f7;
+}
+
+.middle-card {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+}
+
+.middle-card .image img {
+    padding: 1.4rem 2.4rem .8rem 2.4rem;
+    position: relative;
+    text-align: center;
+}
+
+.middle-card h5 {
+    color: #f18b5c;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.middle-card .col-md-4 p {
+    padding-top: 1.2rem;
+    font-weight: 300;
+}
+
+.middle-card strong {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.middle-card h4 {
+    color: #37342d;
+    font-size: 23px;
+    padding-top: 2.4rem;
+    font-weight: 700;
+}
+
+.middle-card span {
+    color: #f27d54;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.middle-card .col-md-8 {
+    padding-left: 2rem;
+}
+
+.middle-card .col-md-8 p {
+    font-weight: 300;
+    padding-top: 1rem;
+
+}
+
+.middle-card ul {
+    list-style: none;
+    font-weight: 300;
+}
+
+.middle-card ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -.6em;
+    margin-top: .4rem;
+
+}
+
+.login-form {
+    min-height: 100vh;
+
+}
+
+.login-form .middle-card {
+    width: 40%;
+}
+
+
+.middle-card.calander .col-md-4 {
+    border: none;
+}
+
+
+.social-icons {
+    display: inline-block !important;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0.2rem;
+}
+
+.middle-card.calander .image img {
+    padding: .551rem 2.4rem .8rem 2.4rem;
+    position: relative;
+    text-align: center;
+}
+
+.middle-card.calander h3 {
+    display: inline-block;
+    padding-top: 1.6rem;
+}
+
+.middle-card.calander strong {
+    font-size: 19px;
+    color: #a8a8a8;
+    font-weight: 600;
+    padding-right: 2rem;
+}
+
+.middle-card.calander .social-icons {
+    padding-right: 2rem;
+}
+
+.middle-card.calander .row {
+    border-bottom: 1px solid #f2f6f7;
+}
+
+
+.calnder-part h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ec6f44;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+
+.custom-btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    color: #333333;
+    background: #f2f6f7;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+
+.calnder-part span {
+    color: #b4bbca;
+    font-size: 16px;
+    margin-top: 3.1rem;
+    margin-left: 2rem;
+}
+
+.fa-edit::before,
+.fa-pencil-square-o::before {
+    content: "\f044";
+    padding: .1rem;
+}
+
+#eventsTable {
+    background: #f8f8f8;
+}
+
+.eventsTable {
+    padding: 1rem;
+}
+
+.table {
+    background-color: #f8f8f8;
+}
+
+.eventsTable table tr:last-child>td {
+    border-bottom: 1px solid #ccc;
+}
+
+.eventsTable table tr:last-child>th {
+    border-bottom: 0;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    border-right: 1px solid #cccc;
+    color: #282828;
+    font-size: 23px;
+    text-align: center;
+
+}
+
+.eventsTable .table thead th {
+    border: none;
+}
+
+.bd {
+    border: none;
+}
+
+.eventsTable table tr td {
+    border-right: 1px solid #ccc;
+    padding-bottom: 0.45rem;
+}
+
+
+
+.eventsTable table span {
+    text-align: center;
+    ;
+    font-size: 18px;
+    margin-left: 1rem;
+    color: #717171;
+
+}
+
+.eventsTable table b {
+    font-weight: 600;
+}
+
+.orangeBg {
+    font-size: 22px;
+    font-weight: 400;
+    background-color: #f18b5c;
+    color: #fff;
+    border-radius: 2px;
+    padding: .7rem .9rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .login-form .middle-card {
+        width: 50%;
+        padding: 23px
+    }
+
+    .middle-card .image img {
+        padding: 1.4rem 2.4rem .8rem 1rem;
+    }
+
+
+    .middle-card p {
+        font-size: 14px;
+    }
+
+    .middle-card ul {
+        font-size: 14px;
+    }
+
+    .middle-card.calander .image img {
+        padding: 1rem;
+
+    }
+
+    .social-icons img {
+        width: 22px;
+        margin: 0.2rem;
+    }
+
+    .middle-card.calander strong {
+        font-size: 16px;
+    }
+
+    .middle-card span {
+        padding-left: 0;
+    }
+
+
+    .calnder-part h1 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #ec6f44;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+
+    .custom-btn {
+        width: 60px;
+        height: 38px;
+        border-radius: 7px;
+        color: #333333;
+        background: #f2f6f7;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 2.1rem;
+    }
+
+
+    .middle-card.calander h3 {
+        font-size: 17px;
+        display: inline;
+
+    }
+   
+   .calnder-part span {
+    color: #b4bbca;
+    font-size: 14px;
+    margin-top: 2.7rem;
+    margin-left: 1rem;
+  }
+
+
+}
+
+@media screen and (max-width: 667px) {
+    .login-form .middle-card {
+        width: auto;
+    }
+
+    .middle-card .col-md-8 {
+        padding-left: 1rem;
+    }
+
+
+    .middle-card h4 {
+        font-size: 20px;
+        padding-left: 1rem;
+    }
+
+    .middle-card span {
+        padding-left: 1rem;
+    }
+
+    .middle-card p {
+        padding-left: 1rem;
+        font-size: 12px;
+    }
+
+    .middle-card ul {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:414px) {
+    .calnder-part span {
+        color: #b4bbca;
+        font-size: 16px;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .custom-btn {
+        margin-top: 1.5rem;
+    }
+
+    .calnder-part h1 {
+        font-size: 20px;
+    }
+
+    .custom-btn {
+        width: 71px;
+        height: 38px;
+        border-radius: 7px;
+        color: #333333;
+        background: #f2f6f7;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .calnder-part span {
+        color: #b4bbca;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .calnder-part h1 {
+        font-size: 18px;
+
+    }
+
+    .custom-btn {
+        width: 66px;
+        height: 38px;
+        border-radius: 7px;
+        color: #333333;
+        background: #f2f6f7;
+        font-size: 22px;
+    }
+}
